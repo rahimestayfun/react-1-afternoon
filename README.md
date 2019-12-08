@@ -21,7 +21,7 @@ In this project we will create a react application that solves computer science 
 * `Fork` and `clone` this repository.
 * `cd` into the project directory.
 * Run `npm install`.
-* After `npm install` has finished run `npm start`.
+* has finished run `npm start`.
 
 ## Step 1
 
