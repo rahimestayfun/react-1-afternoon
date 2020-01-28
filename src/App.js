@@ -1,12 +1,14 @@
-import React, { Component } from 'react';
-import './index.css'
-import TopicBrowser from './components/TopicBrowser/TopicBrowser'
+import React, { Component } from "react";
+import TopicBrowser from "./components/TopicBrowser/TopicBrowser";
+import "./index.css";
 
 class App extends Component {
   render() {
-    return(
-      <TopicBrowser/>
-    )
+    return (
+      <div>
+        <TopicBrowser />
+      </div>
+    );
   }
 }
 

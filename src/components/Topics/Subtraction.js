@@ -26,7 +26,7 @@ class Subtraction extends Component {
             <input className="inputLine" type="number" onChange={(e)=>this.updateNum1(e.target.value)}></input>
             <input className="inputLine" type="number" onChange={(e)=>this.updateNum2(e.target.value)}></input>
             <button className="confirmationButton" onClick={()=>this.subtract(this.state.number1,this.state.number2)}> Subtract </button>
-            <span className="resultsBox" >Result:{this.state.sum}</span>
+            <span className="resultsBox" >Result: {this.state.sum}</span>
           </div>
 
         )

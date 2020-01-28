@@ -35,3 +35,67 @@ class Palindrome extends Component {
     }
 }
 export default Palindrome
+
+
+
+// import React, { Component } from "react";
+// class Palindrome extends Component {
+//   constructor() {
+//     super();
+//     this.state = {
+//       userInput: "",
+//       palindrome: ""
+//     };
+//   }
+//   handleInputChange = e => {
+//     this.setState({ userInput: e.target.value });
+//   };
+//   checkPalindrome = () => {
+//     const { userInput } = this.state;
+//     let reverseInput = userInput
+//       .split("")
+//       .reverse()
+//       .join("");
+//     if (userInput === reverseInput) {
+//       this.setState({ palindrome: "True" });
+//     } else {
+//       this.setState({ palindrome: "False" });
+//     }
+//   };
+//   render() {
+//     return (
+//       <div className="puzzleBox filterStringPB">
+//         <h4>Palindrome</h4>
+//         <input className="inputLine" onChange={this.handleInputChange} />
+//         <button className="confirmationButton" onClick={this.checkPalindrome}>
+//           Check
+//         </button>
+//         <span className="resultsBox">Palindrome: {this.state.palindrome} </span>
+//       </div>
+//     );
+//   }
+// }
+// export default Palindrome;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
